@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  Local
+
+  Created by Gaurav Bhatia on 5/5/17.
+  Copyright © 2017 Gaurav Bhatia. All rights reserved.
+*/
+
+/* German - Deutsch */
+
+/* for debugging */
+"languageOfBundle" = "German - Deutsch";
+
+/* Header-Title of the Table displaying all lists and projects */
+"summary" = "Überblick";
+
+/* Section-Titles in table "summary" */
+"help" = "Hilfe";
+"lists" = "Listen";
+"projects" = "Projekte";
+"listTemplates" = "Vorlagen für Listen";
+"projectTemplates" = "Vorlagen für Projekte";
