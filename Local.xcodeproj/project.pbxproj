@@ -14,6 +14,7 @@
 		CEBD66541EBC9E2300DC3D3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBD66531EBC9E2300DC3D3D /* Assets.xcassets */; };
 		CEBD66571EBC9E2300DC3D3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBD66551EBC9E2300DC3D3D /* LaunchScreen.storyboard */; };
 		CEBD66621EBCA09A00DC3D3D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEBD66641EBCA09A00DC3D3D /* Localizable.strings */; };
+		CEBD66691EBCAFDF00DC3D3D /* LocalizeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBD66671EBCAFDF00DC3D3D /* LocalizeHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		CEBD66631EBCA09A00DC3D3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CEBD66651EBCA0A200DC3D3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CEBD66661EBCA0A600DC3D3D /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CEBD66671EBCAFDF00DC3D3D /* LocalizeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalizeHelper.m; sourceTree = "<group>"; };
+		CEBD66681EBCAFDF00DC3D3D /* LocalizeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizeHelper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 		CEBD66461EBC9E2300DC3D3D /* Local */ = {
 			isa = PBXGroup;
 			children = (
+				CEBD66671EBCAFDF00DC3D3D /* LocalizeHelper.m */,
+				CEBD66681EBCAFDF00DC3D3D /* LocalizeHelper.h */,
 				CEBD664A1EBC9E2300DC3D3D /* AppDelegate.h */,
 				CEBD664B1EBC9E2300DC3D3D /* AppDelegate.m */,
 				CEBD664D1EBC9E2300DC3D3D /* ViewController.h */,
@@ -162,6 +167,7 @@
 			files = (
 				CEBD664F1EBC9E2300DC3D3D /* ViewController.m in Sources */,
 				CEBD664C1EBC9E2300DC3D3D /* AppDelegate.m in Sources */,
+				CEBD66691EBCAFDF00DC3D3D /* LocalizeHelper.m in Sources */,
 				CEBD66491EBC9E2300DC3D3D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
